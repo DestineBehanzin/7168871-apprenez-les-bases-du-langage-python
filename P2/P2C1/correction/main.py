@@ -2,7 +2,7 @@ nombre1 = input("Entrez un nombre entier: ")
 nombre2 = input("Entrez un nombre entier: ")
 
 # isnumeric() permet de vérifier si la chaîne de caractères est un nombre
-if not nombre1.isnumeric() or not nombre2.isnumeric():
+if not nombre1.isnumeric() and not nombre2.isnumeric():
     print("Erreur: les deux nombres doivent être des nombres entiers")
     raise SystemExit("Fin du programme")
 
